@@ -1,0 +1,35 @@
+Employees on Leave for the Month of January
+-------------------------------------------
+
+Day  			Employee No	 	Leave code					
+
+1-Monday		000543			Comp
+2-Tuesday		111523			VC
+3-Wednesday		111523			SL
+4-Thursday		000503			VC
+5-Friday		000527			Comp
+6-Saturday		
+7-Sunday		
+8-Monday		111511			SL
+9-Tuesday		000520			VC
+10-Wednesday		000515			Comp
+11-Thursday		000529			SL
+12-Friday		111530			SL
+13-Saturday				
+14-Sunday		
+15-Monday		000502			SL	
+16-Tuesday		000507			Comp
+17-Wednesday		111523			SL
+18-Thursday		111518			Comp
+19-Friday		000520			SL
+20-Saturday		
+21-Sunday		
+22-Monday		000540			VC
+23-Tuesday		111537			SL
+24-Wednesday		000531			Comp
+25-Thursday		111523			SL
+26-Friday		000533			SL	
+27-Saturday
+28-Sunday
+29-Monday		000512			VC
+30-Tuesday		111523			Comp

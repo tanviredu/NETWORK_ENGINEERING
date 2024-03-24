@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Good Morning $USER. Please fill in your effort tracking sheet."

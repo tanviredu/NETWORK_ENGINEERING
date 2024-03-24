@@ -1,0 +1,13 @@
+
+List of software applications in use
+---------------------------------------------------
+
+Software 		Version		Quantity 
+
+Adobe Photoshop		CS		6
+Adobe Acrobat Writer	6		17
+FileMaker Pro		10		4
+Mac OS X  		10.9		6
+Mac OS X  		10.10		8
+Epic Editor		4		7
+

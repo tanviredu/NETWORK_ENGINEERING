@@ -1,0 +1,6 @@
+Software 	      Version	Quantity 
+
+Adobe Flash 		11	6
+LibreOffice		5       5
+Adobe Photoshop		CS	1
+SnagIt			8     	2               

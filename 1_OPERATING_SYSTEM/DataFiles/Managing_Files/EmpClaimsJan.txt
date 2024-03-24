@@ -1,0 +1,13 @@
+EmployeeClaims
+
+EmployeeNumber        Claims Submitted for Jan
+000234                        yes  
+000675                        no   
+000543                        yes  
+000123                        no   
+000587                        yes  
+000548                        yes  
+000985                        no   
+000158                        yes  
+000196                        no   
+000568                        no   

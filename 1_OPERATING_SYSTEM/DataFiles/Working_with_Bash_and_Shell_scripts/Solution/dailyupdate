@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter today's date:"
+read DATE
+touch dailyupdate-$DATE.txt
+echo "The file dailyupdate-"$DATE".txt has been created"
+echo $DATE > dailyupdate-$DATE.txt

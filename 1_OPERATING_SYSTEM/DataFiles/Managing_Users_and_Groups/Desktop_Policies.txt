@@ -1,0 +1,29 @@
+Policies and Guidelines Relating to Desktop Usage
+
+This document is a must read for all employees of this organization. 
+All employees are requested to have a copy of this file on their desktops 
+and use it when necessary. The policies specified here are to be strictly 
+adhered to by all employees.
+
+Rules Relating to Internet Usage
+
+1.Internet access has been provided to users strictly for educational 
+purposes. Any misuse of this facility will be strictly dealt with.
+2.Browsing, checking email, and chatting are strictly prohibited during office 
+hours.
+3.Viewing of unwanted sites is strictly prohibited.
+4.Download of games, pictures, and other applications from the Web is prohibited.
+
+Rules Relating to Setting of Passwords
+
+1.Ensure that the passwords that you specify are alphanumeric and have at least 
+one special character in each.
+2.Sharing of passwords is strictly prohibited.
+3.All employees should change their passwords every month.
+
+Rules Relating to Installing Software Programs
+
+1.Employees are strictly advised not to install any programs/applications on their own.
+2.Any programs needed for a specific project will be installed only by the 
+system administrator.
+3.Pirated software should not be used in any of the systems.

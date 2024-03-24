@@ -1,0 +1,3 @@
+#!/bin/bash
+USER=`whoami`
+echo "Good Evening $USER. Please fill in your timecard."

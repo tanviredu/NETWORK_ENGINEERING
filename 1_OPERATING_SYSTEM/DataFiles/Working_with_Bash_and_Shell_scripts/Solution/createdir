@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Specify the number of directories to be created:"
+read Numberofdir
+for (( d = $Numberofdir ; d > 0 ; d-- ))
+do
+mkdir Directory-$d
+done

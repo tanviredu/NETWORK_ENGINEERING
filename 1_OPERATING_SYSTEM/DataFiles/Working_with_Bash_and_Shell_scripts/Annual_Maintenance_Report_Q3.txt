@@ -1,0 +1,26 @@
+Rep. Date	Rep.Time	Users	Ctgry	Nature of Problem
+01/01		11:30 am	User 01	H/W	Machine is not booting
+01/11		02:40 pm	User 09	S/W	Remove Java runtime 1.4.6
+02/03		06:00 pm	User 11	S/W	Tally has to install
+02/21		10:10 am	User 15	S/W	Password has to reset in DC
+03/12		12:00 pm	User 02	S/W	Adobe Reader & Extension Finder has to install
+03/29		10:30 am	User 09	S/W	Not able to connect with domain
+04/12		11:00 am	User 10	H/W	Configure Notes, Data has to copy
+04/22		02:45 pm	User 08	H/W	Install WebCam
+05/05		03:15 pm	User 19	H/W	Install WebCam
+05/05		03:15 pm	User 19	H/W	Install WebCam
+05/12		03:00 pm	User 14	S/W	Fresh Installation with HP Restore CD
+06/28		06:30 pm	User 11	HW	Install Digital Pad
+06/09		11:15 am	User 16	S/W	Install Epic Editor version 4
+07/13		11:30 am	User 03	S/W	Install MS Project 2007
+07/23		12:20 pm	User 13	H/W	Install Digital Pad
+08/13		03:20 pm	User 14	S/W	Install Quick Time
+08/30		03:15 pm	User 06	S/W	Install MS Project 2007
+09/11		03:40 pm	User 07	S/W	Install Netscape 7
+09/12		07:30 pm	User 12	S/W	Remove Java runtime 1.4.0.6 and install latest
+10/17		07:45 pm	User 10	S/W	Install Real Player, Run Disk Defragmenter
+10/26		10:30 am	User 07	H/W	Network Printer Configure
+11/14		10:45 am	User 20	S/W	Machine is Slow 
+11/15		02:25 pm	User 02	S/W	Mcafee Anti- Virus Problem
+12/15		04:10 pm	User 08	H/W	VGA Card problem
+12/23		03:00 pm	User 14	s/w	Tally has to install

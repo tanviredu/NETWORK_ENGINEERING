@@ -1,0 +1,62 @@
+
+List of software applications in use as of Jan 2015
+---------------------------------------------------
+
+Software 		Version		Quantity 
+
+Macromedia Director	MX		1
+Macromedia Director	8.5		1
+Macromedia Flash	MX		7
+Macromedia Director	8.5		1
+Macromedia Director	8.5		4
+Macromedia Flash	MX		4
+Macromedia Flash	MX		5
+WinZip	8.5 		sr1		20
+Adobe Photoshop		7		6
+Adobe Photoshop		6		1
+Adobe Acrobat Writer	6		17
+Arbortext Epic Editor	4.2.3		5
+MS Project STD		2006		2
+FileMaker Pro		6		4
+Fireworks 		MX		4
+Fireworks 		4		1
+QuarkXpress 		6		2
+Crystal Reports		10		2
+Photoshop CS		Cs		1
+Mac OS X Panther	10.3		6
+Mac OS 2008		2005		7
+Adobe Acrobat Writer	6		2
+FileMaker Pro		7		2
+Adobe Premier Pro 	1.5		1
+Adobe After Effects PB  6.5		1
+Adobe After Effects std 6.5		1
+Audition 1.5 		1.5		1
+Epic Editor		4		7
+Mac OS  9		9		1
+
+
+
+
+List of Hardware equipments in use as on Jan 2009
+--------------------------------------------------
+
+Equipment		Brand		Quantity
+
+Monitor			IBM		20
+CPU			IBM		20	
+Mouse			IBM		20	
+Laptop			Dell		5	
+Server			Dell		2
+Router			CISCO		2
+Printer			HP		5
+CD-RW			Samsung		1
+CD-ROM			Samsung		10
+Zip drive		Zip		2
+Tape drive		Sony		10
+Webcam			LG		2
+Digital pad		LG		1
+Headphone		Elite		20
+Telephone		Tech		20
+External modem		Link		10
+DVD -RW			HP		1
+Speakers		Creative	10

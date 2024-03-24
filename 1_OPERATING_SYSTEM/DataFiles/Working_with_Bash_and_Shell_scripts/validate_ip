@@ -1,0 +1,22 @@
+#!/bin/bash
+echo -n "Enter the IP address:"
+read IP_ADDR
+IFS=.
+set $IP_ADDR
+if [[$# -ne 4]]
+then echo "IP address must be separated by dots and should have 4 parts, EXITING..."
+	exit 1
+fi
+for IP_PART in $@
+do echo $IP_PART | egrep "^[0-9]+$" > /dev/null 2>&1
+	if [[ $? -ne 0 ]]
+	then echo "$IP_PART: is not a number, it should be a number, EXITING..."
+		exit 1
+	elif [[ $IP_PART -lt 0 || $IP_PART -gt 255 ]]
+	then echo $IP_PART: Value Out of range; must be between 0 and 255, EXITING...
+		exit 1
+	fi
+done
+echo "IP address $IP_ADDR is OK!"
+exit 0
+

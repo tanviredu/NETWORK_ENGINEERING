@@ -1,0 +1,13 @@
+Software 	      Version	Quantity 
+
+Macromedia Flash 	7	6
+Image Maker Pro 	5       5		
+Acrobat Writer	6	1	4
+Image Maker Pro 	7       2	
+Adobe Photoshop		CS	1
+Paintworks 		4	4
+Win Zip			8     	2               
+Epic Editor		4	2
+Ms Project STD	2003	2	2
+Quark Express 		6	2
+Crystal Reports		1	1

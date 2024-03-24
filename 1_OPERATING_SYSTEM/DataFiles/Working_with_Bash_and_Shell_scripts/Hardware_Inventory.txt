@@ -1,0 +1,20 @@
+
+List of Hardware equipment in use
+--------------------------------------------------
+
+Equipment		Brand		Quantity
+
+Monitor			Dell		20
+Workstation		Dell		20	
+Mouse			Dell		20	
+Laptop			Dell		5	
+R910 Server		Dell		2
+Router			CISCO		2
+Printer			HP		5
+DVD-RW			Samsung		1
+Tape drive		Sony		10
+Webcam			LG		2
+Digital pad		LG		1
+Headphones		Elite		20
+Telephone		Tech		20
+Speakers		JBL		10
