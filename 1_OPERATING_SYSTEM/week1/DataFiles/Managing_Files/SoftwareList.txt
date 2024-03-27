@@ -1,10 +1,10 @@
 Software 	      Version	Quantity 
 
-Adobe Flash 		11	6
-LiberOffice		5       5
-Adobe photoshop		CS	1
+Adobe Flash 		11	    6
+LibreOffice		    5       5
+Adobe photoshop		CS	    1
 LiberOffice 		7       2	
-Adobe photoshop		CS	1
-SnagIt			8     	2               
-SuperEditor		4	2
-Ms Project STD		2	2
+Adobe photoshop		CS	    1
+SnagIt			    8       2                
+SuperEditor		    4	    2
+Ms Project STD		2	    2   
