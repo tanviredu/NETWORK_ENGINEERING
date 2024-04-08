@@ -134,3 +134,118 @@ SYSTEMD ECOSYSTEM
     -JOURNALCTL
 
 
+HOW A COMPUTER BOOT
+
+    1) IN PHYSICAL DEVICE
+
+    2) BIOS LOOK FOR BOOTABLE DISK
+
+    3) IT RUN THE GRUB
+
+    4) GRUB LOAD THE KERNAL
+
+    5) KERNAL LOAD THE RAMFS  THE MINIMUM LIBRARY TO READ THROUGH THE FILE SYSTEM TO LOAD 
+       ALL THE LIBRARIES
+
+    6) THEN THE WHOLE SYSTEM LIGHT UP
+
+
+
+
+TO SEE ALLT HE PROCESS WHICH IS BASE WHICH IS IN THE BRANCH USE COMMAND
+    1) pstree
+
+    IT IS SUSTEMD WHICH IS PID 1
+    PID FOR PROCESS ID 1
+
+    IT MAY SHOW INIT BUT IT IS JUST A LINK OF SYSTEMD
+
+
+    1) systemd-analyze HOW MOW MUCH TIME IT WILL TAKE TO STARTUP
+
+
+
+USING SYSTEMCTL TO MANAGE SERVICES
+    
+    EXAMPLE
+    1) systemcrl status cron
+
+    START AND ENABLE
+    2) systemctl enable -now cron
+
+    STOP AND DISABLE
+    3) systemctl disable -now cron
+
+    EDIT THE TARGET FILE
+
+    4) systemctl edit cron --full
+
+    SEE THE TARGET FILE
+    5) systemctl cat cron
+
+
+
+
+WHAT IS RUNLEVEL
+    1) GRAPHICAL RUNLEVEL IS 5
+    2) SERVER MULTIUSER BUT NO GRAPHICAL RUNLEVEL
+
+    0 - Halt: The system is to be shut down.
+
+    1 - Single User Mode: The system operates in a single-user mode without networking.
+
+    2 - Multi-User Mode: The system is operational with multiple users, but without networking.
+
+    3 - Multi-User Mode with Networking: The system is operational with networking support and multiple users.
+    
+    4 - Not used/User-definable: Historically, this runlevel was available for user customization.
+    
+    5 - Start GUI: The system starts the GUI (Graphical User Interface), typically the default runlevel for a desktop system.
+
+    6 - Reboot: The system is to be rebooted.
+
+
+
+    WHICH RUNLEVEL IS CURRENTLY USED
+    
+    1) runlevel
+
+    GET THE DEFAULT RUNLEVEL
+
+    2) systemctl get-default
+
+    LIST ALL THE TARGET. REMEMBER ONE TARGET/UNIT CAN LOAD ANOTHER TARGET
+
+    3) systemctl list-units --type target
+
+    CHANGE MULTIUSER TARGET (RUNLEVEL 3)
+
+    4) sudo systemctl isolate multi-user
+    7) sudo systemctl set-default multi-user
+    8) sudo systemctl get-default
+
+
+
+LOGGING
+    
+    WE DONT NEED TO SEARCH DIFFERENT DIFFERENT LOG FILE .
+    WE COULD JUST USE THE JOURNALCTL
+    
+
+    1) sudo jurnalctl
+
+    LOG FOR SSH
+
+    2) sudo journalctl --unit ssh
+
+ 
+    WITH TIME
+
+    3) sudo journalctl --unit ssh --since today
+
+
+    IF WE WANT TO PERSIST THE LOGS
+
+    4) sudo vim /etc/systemd/journald.conf
+    5) storage=persistent
+    6)systemctl restart systemd-journald
