@@ -249,3 +249,32 @@ LOGGING
     4) sudo vim /etc/systemd/journald.conf
     5) storage=persistent
     6)systemctl restart systemd-journald
+
+    PROCESS MONITORING
+        FIND THE CPU LOAD
+
+        1) uptime
+        
+        MONITORY UPTIME
+
+        2) watch uptime
+        
+        PROCESS SORTED BY DIFFERENT PARAMETER
+
+        3) top
+
+        FIND THE PID OF ANY RUNNING PROCESS
+
+        4) pgrep <service name>
+
+        KILL PROCESS
+        
+        5) kill <PID>
+
+        KILL WITH NAMES
+
+        6) pkill <service name>
+
+        FORCE KILLING PROCESS
+
+        7) kill -9 <PID>
