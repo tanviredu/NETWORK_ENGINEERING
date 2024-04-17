@@ -6,51 +6,53 @@ TASK1:
 TASK 2 :
 	CREATING USERS:
 		FOR EMPLOYEES
+            => sudo mkdir -p /home/emp/johnEMP
 
 			=> sudo useradd -m -d /home/emp/johnEMP johnEMP
 
 			=> sudo passwd johnEMP
-
-			=> sudo useradd -m -d /home/emp/emilyEMP emilyEMP
+            
+            => sudo mkdir -p /home/emp/emilyEMP
+			
+            => sudo useradd -m -d /home/emp/emilyEMP emilyEMP
 
 			=> sudo passwd emilyEMP
 
 		FOR INTERNS:
-			=> sudo useradd -m -d /home/intern/alexINT -e "$(date -d '+6 months')" alexINT
+    		=> sudo useradd -m -d /home/intern/alexINT -e "$(date -d '+6 months')" alexINT
 
 			=> sudo passwd alexINT
 
-			=> sudo useradd -m -d /home/emp/lisaINT
-			-e "$(date -d '+6 months')" lisaINT
+	        => sudo useradd -m -d /home/emp/lisaINT -e "$(date -d '+6 months')" lisaINT
 
 			=> sudo passwd lisaINT
 
 	CREATE GROUPS:
-			=> groupadd Employees
-			=> groupadd Interns
+			=> sudo groupadd Employees
+			=> sudo groupadd Interns
 
 
 			ADDING EMPLOYEES AND INTERNS TO GROUP:
-				=> usermod -aG Employees johnEMP
-				=> usermod -aG Employees emilyEMP
+				=> sudo usermod -aG Employees johnEMP
+				=> sudo usermod -aG Employees emilyEMP
 			
 			ADDING EMPLOYEES AND INTERNS TO GROUP:
-				=> usermod -aG Interns alexEMP
-				=> usermod -aG Interns lisaEMP
+				=> usermod -aG Interns alexINT
+				=> usermod -aG Interns lisaINT
 
 
 	CREATING DIRECTORIES:
-			=> mkdir -p /data/company_documents
-			=> mkdir -p /data/customer_information
-			=> mkdir -p /data/project_files
+			=> sudo mkdir -p /data/company_documents
+			=> sudo mkdir -p /data/customer_information
+			=> sudo mkdir -p /data/project_files
 
 	CREATE SOME FILES INSIDE ALL THE DIRECTORIES
-		   => touch /data/company_documents/test1.txt
-		   => touch /data/company_documents/test2.txt
-		   => touch /data/project_files/test1.txt
-		   => touch /data/project_files/test2.txt
-		   => touch /data/customer_information/test1.txt
-		   => touch /data/customer_information/test2.txt
+		   => sudo touch /data/company_documents/test1.txt
+		   => sudo touch /data/company_documents/test2.txt
+		   => sudo touch /data/project_files/test1.txt
+		   => sudo touch /data/project_files/test2.txt
+		   => sudo touch /data/customer_information/test1.txt
+		   => sudo touch /data/customer_information/test2.txt
 
 
 	AMONNG THREE FOLDER
@@ -83,27 +85,27 @@ TASK 2 :
 
 	ASSIGN OWNERSHIP AND GROUP FOR DIRECTORIES
 
-		=> chown :Employees /data/customer_information
-		=> chown :Employees /data/project_files
-		=> chown :Interns   /data/customer_information
-		=> chown :Interns   /data/project_files
+		=> sudo chown :Employees /data/customer_information
+		=> sudo chown :Employees /data/project_files
+		=> sudo chown :Interns   /data/customer_information
+		=> sudo chown :Interns   /data/project_files
 
 	SETTING THE PERMISSION:
 
 		READ WRITE AND EXECUTE FOR THE PERSON AND GROUP
 
-		=> chmod 770 /data/customer_information
-		=> chmod 770 /data/project_files
+		=> sudo chmod 770 /data/customer_information
+		=> sudo chmod 770 /data/project_files
 
 		READ AND EXECUTE PERMISSION FOR THE 
 		company_documents
 
-		=> chmod 440 /data/company_documents
+		=> sudo chmod 440 /data/company_documents
 
 
 		SETTING Immutable permission for company_documents
 
-		=> chattr +i /data/company_documents
+		=> sudo chattr +i /data/company_documents
 
 
 
@@ -123,8 +125,8 @@ TASK 2 :
 
 	 START AND ENABLE THE SERVICE
 
-	 	=> systemctl enable nfs
-	 	=> systemctl start nfs
+	 	=> systemctl enable nfs-kernel-server
+	 	=> systemctl start nfs-kernel-server
 
 	 CREATE A DIRECTORY:
 	 	=> mkdir /backup
@@ -151,7 +153,7 @@ TASK 2 :
 
 	MAKE A DIRECTORY
 		=> sudo mkdir /localbackup
-		=> sudo chmod 770 /localbackup	
+		=> sudo chmod 777 /localbackup	
 
 	MOUNT NFS SERVER
 		=> sudo mount 192.168.0.100:/backup /localbackup
